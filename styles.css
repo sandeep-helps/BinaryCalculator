@@ -1,0 +1,140 @@
+*{
+    transition: all 1s;
+}
+body{
+    background-image: url("pxl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 1%;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    animation: textShadow 10s 
+        infinite alternate;
+        color: rgba(255, 255, 255, 0.126);
+}
+
+@keyframes textShadow {
+    10%{
+        text-shadow: 2px 2px #ffffff;
+    }
+
+    20%{
+        text-shadow: 10px 10px #08e700;
+    }
+    30%{
+        text-shadow: 2px 2px #23b2ff;
+    }
+
+    40%{
+        text-shadow: 10px 10px #e70096;
+    }
+    50%{
+        text-shadow: 2px 2px #1e00e2;
+    }
+
+    60%{
+        text-shadow: 10px 10px #8800b5;
+    }
+    70%{
+        text-shadow: 2px 2px #ffc400;
+    }
+
+    80%{
+        text-shadow: 10px 10px #04ff00;
+    }
+    90%{
+        text-shadow: 2px 2px #ffffff;
+    }
+
+    100%{
+        text-shadow: 10px 10px #0074e7;
+    }
+}
+h2{
+    color: white;
+}
+.container {
+    align-items: center;
+    text-align: center;
+    height: 500px;
+	width: 350px;
+	background-color: #ffffff23;
+	border-radius: 4px;
+    border-radius: 20px;
+    
+
+}
+.input{
+    cursor: pointer;
+    font-size: 23px;
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.08);
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 30px inset, rgba(215, 69, 255, 0.444) 0px -36px 30px 10px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#operation{
+    transition: all 1s;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.08);
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 30px inset, rgba(215, 69, 255, 0.444) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.input1{
+    transition: all 1s;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.08);
+    box-shadow: rgb(255, 255, 255) 0px -23px 25px 30px inset, rgba(215, 69, 255, 0.444) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+p{
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.input:focus{
+    width: 80%;
+}
+.input1:focus{
+    width: 80%;
+}
+#operation:focus{
+    width: 80%;
+}
+
+
+
+
